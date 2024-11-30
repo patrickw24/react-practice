@@ -1,6 +1,7 @@
 export const NavBar = ()=>{
 
-
+return(
+  <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">Home Page</a>
@@ -12,14 +13,12 @@ export const NavBar = ()=>{
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li className="nav-item">
           <a className="nav-link" href="#">Features</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
-        </li>
+
       </ul>
     </div>
   </div>
 </nav>
+</>
+)
 }

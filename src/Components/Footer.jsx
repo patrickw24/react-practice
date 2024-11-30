@@ -1,5 +1,10 @@
 export const Footer = ()=>{
 
-    <footer> Footer by: Patrick </footer>
+    return(
+        <>
+       <footer className="text-center fixed-bottom">Created by: Patrick </footer>
+        </>
+    )
+    
 
 }

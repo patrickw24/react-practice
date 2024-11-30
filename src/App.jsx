@@ -5,6 +5,7 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom'
 import { HomePage } from './ScreenComponents/HomePage'
 import { NavBar } from './Components/NavBar'
 import { Footer } from './Components/Footer'
+
 function App() {
   
 

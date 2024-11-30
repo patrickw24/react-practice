@@ -1,4 +1,4 @@
-export const Input = (type, label, setVal)=>{
+export const Input = ({type, label, setVal})=>{
 
 
    

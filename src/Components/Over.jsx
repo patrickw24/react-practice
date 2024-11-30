@@ -1,4 +1,4 @@
-export const Over = (message)=>{
+export const Over = ({message})=>{
 
     return(
         <>
